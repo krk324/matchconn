@@ -8,12 +8,9 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require_tree .
  */
 
-#footer {
-  color: #999;
-  background-color: #f8f8f8;
-  border-top: 1px solid #e7e7e7;
-}
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "home";
+@import "sticky-footer-navbar";
