@@ -1,23 +1,16 @@
 development:
   adapter: postgresql
-  encoding: utf8
   database: matchconn_development
   pool: 5
-  username:
-  password:
-
-test: &TEST
+  timeout: 5000
+test:
   adapter: postgresql
-  encoding: utf8
   database: matchconn_test
   pool: 5
-  username:
-  password:
+  timeout: 5000
 
 production:
   adapter: postgresql
-  encoding: utf8
   database: matchconn_production
   pool: 5
-  username:
-  password:
+  timeout: 5000
