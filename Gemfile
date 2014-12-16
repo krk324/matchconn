@@ -27,10 +27,44 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+group :development, :test do
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-nav'
+  gem 'pry-stack_explorer'
+  gem 'rspec-rails'
+  gem 'dotenv-rails'
+  gem 'jasmine-rails'
+  # Add model attributes
+  gem 'annotate'
+
+  # Turn off verbose logging of asset requests
+  gem 'quiet_assets'
+
+  # see Railscast for better_error gem
+  # http://railscasts.com/episodes/402-better-errors-railspanel
+  # FOR sublime text 3 MUST INSTALL sublime-url-protocol-mac, http://goo.gl/8KX1lb
+  # http://goo.gl/8KX1lb
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  # Show a rails panel in Chrome. Requires a Chrome extension.
+  # https://github.com/dejan/rails_panel
+  gem 'meta_request'
+
+  gem 'bullet'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'poltergeist'
+  gem 'shoulda-matchers'
+end
+
 
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
