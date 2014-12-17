@@ -340,7 +340,8 @@ section.section {
 
 }
 #testimonials{
-	background-image: url(https://unsplash.imgix.net/uploads/14120938606568dde6e2b/c9e42240?q=75&fm=jpg&s=30cfed70f59bbfce34b374e629bb5f84);
+	/* background-image: url(https://unsplash.imgix.net/uploads/14120938606568dde6e2b/c9e42240?q=75&fm=jpg&s=30cfed70f59bbfce34b374e629bb5f84);*/
+	background-image: url(https://farm4.staticflickr.com/3761/9076990688_f56cb0ec7c_b.jpg);
 	background-size: cover;
 }
 /*===========================
@@ -600,6 +601,24 @@ About
 	font-weight: 700;
 }
 
+/*==========================
+開催場所
+=========================== */
+
+.place-photo {
+  height: auto;
+	box-sizing:border-box;
+	-webkit-border-radius:0%;
+		-moz-border-radius:0%;
+			border-radius:0%;
+	margin: 0 0 20px 0;
+}
+.place-photo img {
+  height: auto;
+	-webkit-border-radius:0%;
+		-moz-border-radius:0%;
+			border-radius:0%;
+}
 
 /*===========================
   Portfolio
