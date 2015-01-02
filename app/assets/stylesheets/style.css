@@ -314,8 +314,13 @@ section.section {
 }
 
 .bg-white {
-	background-color: #fff;
+	background-color: #ffffff;
 }
+
+.bg-green {
+	background-color: #aed3bd;
+}
+
 
 /* --- section heading --- */
 .section-header {
@@ -347,6 +352,13 @@ section.section {
 /*===========================
   --- Header & menu ----
 =========================== */
+
+.logo{
+	width:100px;
+	height:158px;
+	margin-bottom: 20px;
+}
+
 .navbar {
 	background-color: rgba(255,255,255,0.7);
 	display: block;
@@ -423,12 +435,12 @@ a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #70B9B0;
-	color: #fdfdfd;
+	background: #aed3bd;
+	color: #ffffff;
 }
 
 section.featured h2.slogan {
-	color: #fff;
+	color: #ffffff;
 	font-size: 48px;
 	font-weight: 900;
 }
@@ -1074,7 +1086,7 @@ Media queries
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
+		background-color:rgba(255,255,255,0.7);
 	}
 	.navbar .navbar-collapse ul.nav {
 		background-color: #444;
