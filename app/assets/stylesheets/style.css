@@ -24,7 +24,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	color:#222;
+	color:#383838;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -321,6 +321,10 @@ section.section {
 	background-color: #aed3bd;
 }
 
+.bg-black {
+	background-color: #242424
+}
+
 
 /* --- section heading --- */
 .section-header {
@@ -336,18 +340,18 @@ section.section {
 ============================= */
 
 #parallax1{
-	background-image: url(https://farm5.staticflickr.com/4052/4626290179_bdafb86144_o.jpg);
+	background-image: url(https://unsplash.imgix.net/reserve/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg?q=75&fm=jpg&s=2e5c05f89649d68fb2f32669ad9378b1);
 	background-size: cover;
 }
 #parallax2{
-	background-image: url(https://farm9.staticflickr.com/8315/8009906473_0d81cde46d_b.jpg);
+	background-image: url(https://farm8.staticflickr.com/7137/7149159665_0c876fe9d2_b.jpg);
 	background-size: cover;
 
 }
 #testimonials{
-	/* background-image: url(https://unsplash.imgix.net/uploads/14120938606568dde6e2b/c9e42240?q=75&fm=jpg&s=30cfed70f59bbfce34b374e629bb5f84);*/
-	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny.jpg);
-	background-size: cover;
+	background-image: url(https://farm4.staticflickr.com/3715/9153592120_d3743d61f8_b.jpg);
+/*	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny.jpg);
+*/	background-size: cover;
 }
 /*===========================
   --- Header & menu ----
@@ -1109,4 +1113,23 @@ Media queries
 	.stats .col-md-3 {
 		margin-bottom: 30px;
 	}
+}
+
+/* ========================================
+Responsive video
+========================================= */
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
 }
