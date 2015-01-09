@@ -1023,7 +1023,9 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
-
+.social-circle-white i{
+	color: #aed3bd;
+}
 
 /* stats */
 .stats .icon {

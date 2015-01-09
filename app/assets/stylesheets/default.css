@@ -73,6 +73,10 @@ a:hover {
 	background:#aed3bd;
 }
 
+.white-border li a {
+  background:#ffffff;
+}
+
 a.scrollup{
 	background:#aed3bd;
 }
