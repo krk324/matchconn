@@ -132,6 +132,9 @@ a:hover {
 	color: #fff;
 }
 
+.color-black {
+	color: #383838;
+}
 .theme-bg {
 	background-color: #ff7701 !important;
 }
@@ -344,14 +347,13 @@ section.section {
 	background-size: cover;
 }
 #parallax2{
-	background-image: url(https://farm8.staticflickr.com/7137/7149159665_0c876fe9d2_b.jpg);
+	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/oxny-background-bridge.jpg);
 	background-size: cover;
 
 }
 #testimonials{
 	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny_blur.jpg);
-/*	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny.jpg);
-*/	background-size: cover;
+	background-size: cover;
 }
 /*===========================
   --- Header & menu ----
@@ -759,7 +761,7 @@ nav#filter a {
 	color: #fff;
 }
 .testimonial span.author {
-	color: #fff;
+	color: #383838;
 	font-weight: 700;
 }
 
