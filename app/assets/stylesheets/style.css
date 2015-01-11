@@ -355,7 +355,10 @@ section.section {
 }
 #testimonials{
 /*	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny_blur.jpg);
-*/	background-color: #242424;
+*/
+background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/button-fashion-1334.jpg);
+/*background-color: #242424;
+*/
 background-size: cover;
 }
 /*===========================
@@ -376,6 +379,10 @@ background-size: cover;
 	margin-bottom: 0;
 	padding-bottom:0;
 
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #AA9A01;
 }
 
 .navbar .navbar-collapse {
