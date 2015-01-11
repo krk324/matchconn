@@ -80,3 +80,45 @@ a:hover {
 a.scrollup{
 	background:#AA9A00;
 }
+
+/*ghost button*/
+
+.ghost-button-border-color {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #AA9A00;
+  border-color: #AA9A00;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}
+
+.ghost-button-border-color-invitation {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #AA9A00;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+.ghost-button-border-color-invitation:hover,
+.ghost-button-border-color-invitation:active {
+  color: #AA9A00;
+  border-color: #ffffff;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}
