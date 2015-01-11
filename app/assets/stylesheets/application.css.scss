@@ -10,9 +10,17 @@
  *
  */
 
+//input plugin
+@import "normalize";
+@import "component";
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "sticky-footer-navbar";
 @import "font-awesome";
 @import "default";
 @import "style";
+
+
+
