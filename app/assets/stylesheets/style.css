@@ -442,12 +442,12 @@ a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #aed3bd;
-	color: #ffffff;
+	background: #ffffff;
+	color: #383838;
 }
 
 section.featured h2.slogan {
-	color: #ffffff;
+	color: #383838;
 	font-size: 48px;
 	font-weight: 900;
 }
@@ -1018,7 +1018,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.2s;
 }
 .social-circle i {
-	color: #fff;
+	color: #CC3333;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
@@ -1026,7 +1026,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.8s;
 }
 .social-circle-white i{
-	color: #aed3bd;
+	color: #CC3333;
 }
 
 /* stats */
