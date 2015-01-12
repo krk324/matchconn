@@ -90,7 +90,6 @@ a.scrollup{
   color: #fff;
   border: 2px solid #fff;
   text-align: center;
-  outline: none;
   text-decoration: none;
   transition: border-color 0.3s ease-out,
               color 0.3s ease-out;
@@ -110,7 +109,6 @@ a.scrollup{
   color: #fff;
   border: 2px solid #AA9A00;
   text-align: center;
-  outline: none;
   text-decoration: none;
   transition: border-color 0.3s ease-out,
               color 0.3s ease-out;
