@@ -14,4 +14,4 @@ function validateCode()
     return( true );
 }
 
-$('#mc-embedded-subscribe').on('click', validateCode);
+$('[id=mc-embedded-subscribe]').on('click', validateCode);
