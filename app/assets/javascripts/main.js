@@ -1,7 +1,8 @@
 function validateCode()
 {
 
-   var code = document.forms["mc-embedded-subscribe-form"]["code"].value;
+   var code = $( "input[name*='code']" ).val();
+
    if (code === "" || code !== "oxny")
    {
         swal({
