@@ -1,9 +1,9 @@
 function validateCode()
 {
 
-   var code = $( "input[name*='code']" ).val();
+   var code = document.getElementById("code").value;
 
-   if (code === "" || code !== "2015scentxdna")
+   if (code === "" || code !== "2015preevent")
    {
         swal({
           title: "招待コードが違います。",
