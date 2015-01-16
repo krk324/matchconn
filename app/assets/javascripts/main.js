@@ -3,7 +3,7 @@ function validateCode()
 
    var code = $( "input[name*='code']" ).val();
 
-   if (code === "" || code !== "oxny")
+   if (code === "" || code !== "2015scentxdna")
    {
         swal({
           title: "招待コードが違います。",
