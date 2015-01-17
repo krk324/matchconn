@@ -343,20 +343,36 @@ section.section {
 ============================= */
 
 #parallax1{
-/*	background-image: url(https://unsplash.imgix.net/reserve/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg?q=75&fm=jpg&s=2e5c05f89649d68fb2f32669ad9378b1);
-*/	background-color: #242424;
-	background-size: cover;
+	background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/car-driving-fashion-989.jpg);
+/*	background-color: #242424;
+*/	background-size: cover;
 }
 #parallax2{
-/*	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/oxny-background-bridge.jpg);
+/*	background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/car-driving-fashion-989.jpg);
 */	background-color: #242424;
 	background-size: cover;
 
 }
 #testimonials{
-/*	background-image: url(https://s3-ap-northeast-1.amazonaws.com/oxny/facebook_cover_oxny_blur.jpg);
-*/
 background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/button-fashion-1334.jpg);
+/*background-color: #242424;
+*/
+background-size: cover;
+}
+
+#parallax1_women{
+	background-image: url(http://static.pexels.com/wp-content/uploads/2014/07/abstract-bokeh-circles-1744.jpg);
+/*	background-color: #242424;
+*/	background-size: cover;
+}
+#parallax2_women{
+/*	background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/car-driving-fashion-989.jpg);
+*/	background-color: #242424;
+	background-size: cover;
+
+}
+#testimonials_women{
+background-image: url(https://ununsplash.imgix.net/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?q=75&fm=jpg&s=c1eb21083e5bc4afde8a9706467f59a9);
 /*background-color: #242424;
 */
 background-size: cover;
