@@ -1,5 +1,6 @@
 $(document).ready(function () {
-          $('#gender-modal').modal('show');
+  $('#gender-modal').modal('show');
+  $('.logo').addClass('animated zoomIn');
 });
 
 function showPrivacy(){
@@ -7,8 +8,6 @@ function showPrivacy(){
 }
 
 $('#privacy-link').on('click', this.showPrivacy);
-
-
 
 // function validateCode()
 // {
