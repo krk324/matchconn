@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $('#gender-modal').modal('show');
-  $('.logo').addClass('animated zoomIn');
 });
 
 function showPrivacy(){
