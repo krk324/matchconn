@@ -2,12 +2,6 @@ $(document).ready(function () {
   $('#gender-modal').modal('show');
 });
 
-function showPrivacy(){
-  $('#modal-privacy').modal('show');
-}
-
-$('#privacy-link').on('click', this.showPrivacy);
-
 // function validateCode()
 // {
 
