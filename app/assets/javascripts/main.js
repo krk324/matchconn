@@ -1,7 +1,3 @@
-$(document).ready(function () {
-  $('#gender-modal').modal('show');
-});
-
 // function validateCode()
 // {
 
