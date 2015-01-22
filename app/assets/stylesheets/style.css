@@ -470,7 +470,7 @@ a.navbar-brand {
 =========================== */
 
 section.featured {
-	padding: 200px 0 60px;
+	padding: 50px 0 60px;
 	background: #ffffff;
 	color: #383838;
 }
@@ -478,6 +478,12 @@ section.featured {
 section.featured h2.slogan {
 	color: #383838;
 	font-size: 48px;
+	font-weight: 900;
+}
+
+section.featured h4.slogan {
+	color: #383838;
+	font-size: 24px;
 	font-weight: 900;
 }
 
