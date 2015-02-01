@@ -354,9 +354,9 @@ section.header {
  --- Parallax ---
 ============================= */
 #parallax1{
-	background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/71.jpg);
-/*	background-color: #242424;
-*/	background-size: cover;
+/*	background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/71.jpg);
+*/	background-color: #242424;
+		background-size: cover;
 }
 #parallax2{
 /*	background-image: url(http://static.pexels.com/wp-content/uploads/2014/06/car-driving-fashion-989.jpg);
