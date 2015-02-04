@@ -355,7 +355,7 @@ section.header {
 ============================= */
 #parallax1{
 /*	background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/71.jpg);
-*/	background-color: #242424;
+*/	background-color: #CDBB10;
 		background-size: cover;
 }
 #parallax2{
@@ -934,7 +934,7 @@ div.cform-response-output {
  ================= */
 
 section#footer {
-	background: #242424;
+	background: #5C5300;
 	margin: 0;
 }
 
