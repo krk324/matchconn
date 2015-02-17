@@ -97,6 +97,10 @@ header h1,
 	background: #16B7A5;
 }
 
+.event-banner{
+	background: #D46A6A;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /* NAVBAR
@@ -408,7 +412,6 @@ header .carousel-indicators li {
 .event-banner{
 	overflow: hidden;
 	padding: 10px 0px 0px 0px;
-	background:#D46A6A;
 }
 
 .event-banner p {
